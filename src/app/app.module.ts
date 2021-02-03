@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LimamouComponent } from './limamou/limamou.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LimamouComponent
   ],
   imports: [
     BrowserModule,
